@@ -1159,4 +1159,23 @@ button:hover
     .wrapper .content-wrapper > h1 {
         font-size: 20px !important;
     }
+
+    .box-container {
+        flex-direction: column;
+        width: 100% !important;
+
+        .box {
+            flex-direction: column;
+            width: 100% !important;
+
+            .overlay {
+                width: 100% !important;
+                height: 300px !important;
+            }
+
+            .text {
+                width: 100%;
+            }
+        }
+    }
 }
